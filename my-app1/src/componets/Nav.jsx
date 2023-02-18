@@ -3,13 +3,13 @@ import React from 'react';
 const Nav = ( ) => {
     return (  <nav className="nav">
     <div>
-      <a href="">Profile</a>
+      <a href="">Profile1</a>
     </div>
     <div>
-      <a href="">Massages1</a>
+      <a href="">Massages</a>
     </div>
     <div>
-      <a href="">News1</a>
+      <a href="">News</a>
     </div>
     <div>
       <a href="">Music</a>
