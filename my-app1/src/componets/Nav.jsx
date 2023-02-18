@@ -6,10 +6,10 @@ const Nav = ( ) => {
       <a href="">Profile</a>
     </div>
     <div>
-      <a href="">Massages</a>
+      <a href="">Massages1</a>
     </div>
     <div>
-      <a href="">News</a>
+      <a href="">News1</a>
     </div>
     <div>
       <a href="">Music</a>
