@@ -1,5 +1,5 @@
 .content {
-    grid-area: content;
+    /* grid-area: content;
     display: grid;
     gap: 10px;
     grid-template-areas:
@@ -9,7 +9,7 @@
       'e e'
       'f f';
     grid-template-columns: 20% 80%;
-    grid-template-rows: 4fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 2fr 1fr 1fr 1fr; */
     background: rgba(221, 233, 219, 0.9);
   }
 
@@ -28,11 +28,11 @@
   }
 
   .avatarHolder {
-    grid-area: avatar;
+    /* grid-area: avatar; */
   }
 
   .avatarHolder img {
-    width: 100%;
+    width: 30px;
   }
   
   .avatarDescription {
@@ -40,13 +40,13 @@
   }
 
   .titlePost {
-    grid-area: d;
+    /* grid-area: d; */
   }
   
   .newPost {
-    grid-area: e;
+    /* grid-area: e; */
   }
   
   .postShow {
-    grid-area: f;
+    /* grid-area: f; */
   }

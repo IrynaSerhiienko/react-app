@@ -1,0 +1,18 @@
+  .item{
+
+  }
+
+  .avatarHolder .avatar {
+    width: 50px;
+    border-radius: 50px;
+  }
+
+  .avatarHolder {
+    display: inline-block;
+  }
+
+  .newPost {
+    /* grid-area: e; */
+  }
+  
+  
