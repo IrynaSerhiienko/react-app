@@ -1,7 +1,3 @@
-ul li {
-  list-style-type: disc;
-}
-
 .app-wrapper {
   display: grid;
   grid-template-areas:
@@ -12,22 +8,21 @@ ul li {
   /* grid-template-columns: 2fr 10fr; */
 }
 
-.header {
+/* .header {
   grid-area: header;
   height: 80px;
   margin-bottom: 3px;
-  /* background: rgba(124, 11, 64, 0.4); */
   background: linear-gradient(
     to bottom,
     rgba(35, 214, 11, 0.9) 0%,
     rgba(0, 0, 0, 0.9) 100%
   );
-}
+} */
 
-.header img {
+/* .header img {
   width: 50px;
-}
-.nav {
+} */
+/* .nav {
   grid-area: nav;
   margin-right: 3px;
   background: linear-gradient(
@@ -35,9 +30,9 @@ ul li {
     rgba(0, 0, 0, 0.9) 0%,
     rgba(35, 214, 11, 0.9) 100%
   );
-  /* background: rgba(144, 15, 200, 0.4); */
-}
-.content {
+} */
+
+/* .content {
   grid-area: content;
   display: grid;
   gap: 10px;
@@ -49,39 +44,38 @@ ul li {
     'f f';
   grid-template-columns: 20% 80%;
   grid-template-rows: 4fr 2fr 1fr 1fr 1fr;
-  /* width: 100%; */
   background: rgba(221, 233, 219, 0.9);
-}
-.content img {
+} */
+/* .content img {
   margin: 0 auto;
   display: block;
   width: 1000px;
-}
+} */
 
-.hero-holder {
+/* .hero-holder {
   background-image: url(./hero.jpg);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   grid-area: hero;
-}
-.avatar-holder {
+} */
+/* .avatar-holder {
   grid-area: avatar;
-}
-.avatar-holder img {
+} */
+/* .avatar-holder img {
   width: 100%;
-}
+} */
 
-.avatar-description {
+/* .avatar-description {
   grid-area: description;
-}
-.title-post {
+} */
+/* .title-post {
   grid-area: d;
-}
+} */
 
-.new-post {
+/* .new-post {
   grid-area: e;
 }
 .post-show {
   grid-area: f;
-}
+} */
