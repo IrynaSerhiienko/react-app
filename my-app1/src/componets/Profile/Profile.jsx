@@ -1,4 +1,3 @@
-import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css';
 
@@ -19,12 +18,7 @@ const Profile = ( ) => {
       ducimus suscipit autem maxime aperiam perferendis, corporis
       voluptatem ab accusantium sequi repudiandae qui?
     </div>
-
-    {/* <div className={s.titlePost}>my post</div>
-    <div className={s.newPost}>new post</div>
-    <div className={s.postShow}>postN</div>
-    <div className={s.postShow}>postN</div> */}
-
+    
     <MyPosts />
   </div>)
 }

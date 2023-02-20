@@ -29,7 +29,7 @@
 .nav .item {
     color: white;
     font-size: 22px;
-    text-decoration: none;
+    /* text-decoration: none; */
 };
 
 /* .item .active {
