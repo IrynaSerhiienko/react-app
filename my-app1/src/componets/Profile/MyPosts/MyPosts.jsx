@@ -10,11 +10,8 @@ const MyPosts = ( ) => {
         <textarea className={s.textPost} name="" id="" cols="" rows="" placeholder='My news'></textarea>
         <button className={s.btn}>Add post</button>
        
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post message='Hi, how are you?'/>
+        <Post message='It is my first post'/>
     </div>
     )
 }
