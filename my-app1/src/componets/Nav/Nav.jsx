@@ -1,22 +1,42 @@
+import {NavLink } from 'react-router-dom';
 import s from './Nav.module.css';
 
 const Nav = ( ) => {
     return (  <nav className={s.nav}>
-    <div>
-      <a href="/profile" className={s.item}>Profile</a>
-      {/* <a href="" className={`${s.item} ${s.active}`}>Profile</a> */}
+    <div className={s.item}>
+        <NavLink to="/profile"  style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            Profile
+        </NavLink>
+        {/* <NavLink to="/profile" activeClassName={s.active}>Profile</NavLink> */}
     </div>
-    <div>
-      <a href="/dialogs" className={s.item}>Massages</a>
+    <div className={s.item}>
+        <NavLink to="/dialogs" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            Massages
+        </NavLink>
+        {/* <NavLink to="/dialogs" activeClassName={s.active}>Massages</NavLink> */}
     </div>
-    <div>
-      <a href="/news" className={s.item}>News</a>
+    <div className={s.item}>
+        <NavLink to="/news" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            News
+        </NavLink>
+        {/* <NavLink to="/news" activeClassName={s.active}>News</NavLink> */}
     </div>
-    <div>
-      <a href="/music" className={s.item}>Music</a>
+    <div className={s.item}>
+        <NavLink to="/music" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            Music
+        </NavLink>
+        {/* <NavLink to="/music" activeClassName={s.active}>Music</NavLink> */}
     </div>
-    <div>
-      <a href="/settings" className={s.item}>Settings</a>
+    <div className={s.item}>
+        <NavLink to="/settings" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            Settings
+        </NavLink>
+        {/* <NavLink to="/settings" activeClassName={s.active}>Settings</NavLink> */}
     </div>
   </nav>)
 }
