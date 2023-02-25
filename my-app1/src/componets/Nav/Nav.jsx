@@ -38,6 +38,13 @@ const Nav = ( ) => {
         </NavLink>
         {/* <NavLink to="/settings" activeClassName={s.active}>Settings</NavLink> */}
     </div>
+    <div className={s.item}>
+        <NavLink to="/fetch" style={({ isActive }) => ({ 
+                            color: isActive ? 'blue' : 'white' })}>
+                            Fetch
+        </NavLink>
+        {/* <NavLink to="/settings" activeClassName={s.active}>Settings</NavLink> */}
+    </div>
   </nav>)
 }
 

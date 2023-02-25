@@ -1,3 +1,4 @@
+
 import s from './Music.module.css';
 
 const Music = (props) => {
@@ -6,5 +7,4 @@ const Music = (props) => {
     </div>
     )
 }
-
 export default Music;

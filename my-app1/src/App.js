@@ -8,6 +8,7 @@ import Dialogs from './componets/Dialogs/Dialogs';
 import News from './componets/News/News';
 import Music from './componets/Music/Music';
 import Settings from './componets/Settings/Settings';
+import Fetch from "./componets/Fetch/Fetch";
 
 const App = (props) => (
   <>
@@ -21,6 +22,7 @@ const App = (props) => (
           <Route  path="/news" element={<News />} />
           <Route  path="/music" element={<Music />} />
           <Route  path="/settings" element={<Settings />} />
+          <Route  path="/fetch" element={<Fetch />} />
         </Routes>
       </div>
     </div>

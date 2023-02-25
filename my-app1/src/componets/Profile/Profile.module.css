@@ -13,31 +13,9 @@
     background: rgba(221, 233, 219, 0.9);
   } */
 
-  .content img {
-    margin: 0 auto;
-    display: block;
-    width: 1000px;
-  }
   
-  .heroHolder {
-    background-image: url(./hero.jpg);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-area: hero;
-  }
-
-  .avatarHolder {
-    /* grid-area: avatar; */
-  }
-
-  .avatarHolder img {
-    width: 30px;
-  }
   
-  .avatarDescription {
-    grid-area: description;
-  }
+  
 
   .titlePost {
     /* grid-area: d; */
