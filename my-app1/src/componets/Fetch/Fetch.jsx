@@ -1,5 +1,5 @@
 import useFetch from "react-fetch-hook";
-import Item from '.././Item/Item';
+import Item from './Item/Item';
 // import { useState, useEffect } from 'react';
 import s from './Fetch.module.css';
 
