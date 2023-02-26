@@ -10,7 +10,7 @@ import state from './redux/state'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/react-app">
     <React.StrictMode>
       <App state={state}/>
     </React.StrictMode>
